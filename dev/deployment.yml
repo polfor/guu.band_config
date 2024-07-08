@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guu-band-dev
+  namespace: dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: guu-band-dev
+  template:
+    metadata:
+      labels:
+        app: guu-band-dev
+    spec:
+      containers:
+        - name: guu-band-dev
+          image: polfor/guu_band_dev:f7e6721
+          ports:
+            - containerPort: 80
