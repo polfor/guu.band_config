@@ -5,6 +5,6 @@ resources:
 images:
   - name: polfor/guu_band
     newName: polfor/guu_band_dev
-    newTag: eb8c2c5
+    newTag: 6d419cd
 
 namespace: dev
