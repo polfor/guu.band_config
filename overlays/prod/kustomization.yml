@@ -4,6 +4,6 @@ resources:
   - ../../base
 images:
   - name: polfor/guu_band
-    newTag: "${SHORT_SHA}"
+    newTag: ''
 
 namespace: prod
