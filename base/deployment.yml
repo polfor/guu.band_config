@@ -15,6 +15,5 @@ spec:
       containers:
         - name: guu-band
           image: polfor/guu_band
-          newTag: PLACEHOLDER
           ports:
             - containerPort: 80
