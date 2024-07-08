@@ -4,6 +4,6 @@ resources:
   - ../../base
 images:
   - name: polfor/guu_band
-    newTag: '71146e9'
+    newTag: e5548b9
 
 namespace: prod
