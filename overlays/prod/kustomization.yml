@@ -4,7 +4,7 @@ resources:
   - ../../base
 images:
   - name: polfor/guu_band
-    newTag: 9220f40
+    newTag: d8bd77d
 
 replicas:
   - name: guu-band
