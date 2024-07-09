@@ -6,4 +6,8 @@ images:
   - name: polfor/guu_band
     newTag: 9220f40
 
+replicas:
+  - name: guu-band
+    count: 3
+
 namespace: prod
