@@ -1,0 +1,7 @@
+apiVersion: autoscaling/vl
+kind: HorizontalPodAutoscaler
+metadata:
+  name: hpa-guu-band
+spec:
+  minReplicas: 1
+  maxReplicas: 2

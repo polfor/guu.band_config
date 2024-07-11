@@ -8,3 +8,6 @@ images:
     newTag: e4e9fff
 
 namespace: dev
+
+patchesStrategicMerge:
+  - hpa.yml

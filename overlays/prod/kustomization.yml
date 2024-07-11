@@ -6,8 +6,7 @@ images:
   - name: polfor/guu_band
     newTag: d8bd77d
 
-replicas:
-  - name: guu-band
-    count: 3
-
 namespace: prod
+
+patchesStrategicMerge:
+  - hpa.yml
